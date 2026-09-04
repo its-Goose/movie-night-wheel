@@ -16,4 +16,4 @@ Then open `http://YOUR-UNRAID-IP:8090`.
 
 ## GitHub container publishing
 
-Every push to the `main` branch automatically builds and publishes an Unraid-ready image to GitHub Container Registry. The image address is `ghcr.io/GITHUB-USERNAME/REPOSITORY-NAME:latest`.
+Every push to the `main` branch automatically builds and publishes an Unraid-ready image to GitHub Container Registry. The image address is `ghcr.io/its-goose/movie-night-wheel:latest`.
