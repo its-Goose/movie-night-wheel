@@ -1,0 +1,9 @@
+services:
+  movie-night-wheel:
+    build: .
+    container_name: movie-night-wheel
+    ports:
+      - "8090:3000"
+    volumes:
+      - /mnt/user/appdata/movie-night-wheel:/data
+    restart: unless-stopped
