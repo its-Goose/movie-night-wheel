@@ -30,7 +30,7 @@ jobs:
           push: true
           platforms: linux/amd64
           tags: |
-            ghcr.io/${{ github.repository }}:latest
-            ghcr.io/${{ github.repository }}:${{ github.sha }}
+            ghcr.io/its-goose/movie-night-wheel:latest
+            ghcr.io/its-goose/movie-night-wheel:${{ github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
